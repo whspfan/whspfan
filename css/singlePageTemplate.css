@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
+	font-family: "メイリオ", meiryo, source-sans-pro;
 	background-color: #ffffff;
 	margin-top: 0px;
 	margin-right: 0px;

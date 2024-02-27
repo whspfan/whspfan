@@ -109,7 +109,12 @@ body {
 	width: 100%;
 	height: auto;
 }
-
+.member div div {
+	width: 50%:
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .member_icon{
         display: flex;
         flex-wrap:wrap;

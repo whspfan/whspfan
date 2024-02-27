@@ -95,6 +95,18 @@ body {
 .spotify iframe {
 	max-width: 100%;
 }
+.members {
+	text-align: center;
+}
+
+.member {
+	display:flex;
+}
+.member img {
+	width: 50%;
+	height: auto;
+}
+
 .about {
 	padding-left: 25px;
 	padding-right: 25px;

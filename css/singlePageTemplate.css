@@ -74,11 +74,11 @@ body {
 .official_link li {
         max-width: 32px;
         padding:0 5px;
-	    list-style:none;
+	list-style:none;
 }
 .official_link li img {
         max-width:100%; 
-		border-radius:50%;
+	border-radius:50%;
     }
 .media {
 	text-align: center;
@@ -102,9 +102,34 @@ body {
 .member {
 	display:flex;
 }
-.member img {
-	width: 50%;
+.member div {
+	width: 50%:
+}
+.member div img {
+	width: 100%;
 	height: auto;
+}
+
+.member_icon{
+        display: flex;
+        flex-wrap:wrap;
+	list-style-type: none;
+	padding-left: 0;
+	justify-content: center;
+	width:100%;
+}
+.member_icon li {
+        max-width: 32px;
+        padding:0 5px;
+	list-style:none;
+}
+.member_icon li img {
+        max-width:100%; 
+	border-radius:50%;
+    }
+
+hr {
+	margin-top:20px;
 }
 
 .about {

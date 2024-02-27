@@ -19,49 +19,7 @@ body {
 	background-color: #FFFFFF;
 }
 /* Navigation */
-header {
-	width: 100%;
-	height: 5%;
-	background-color: #000000;
-	border-bottom: 1px solid #2C9AB7;
-}
-.logo {
-	color: #fff;
-	font-weight: bold;
-	text-align: undefined;
-	width: 10%;
-	float: left;
-	margin-top: 15px;
-	margin-left: 25px;
-	letter-spacing: 4px;
-}
-nav {
-	float: right;
-	width: 50%;
-	text-align: right;
-	margin-right: 25px;
-}
-header nav ul {
-	list-style: none;
-	float: right;
-}
-nav ul li {
-	float: left;
-	color: #FFFFFF;
-	font-size: 14px;
-	text-align: left;
-	margin-right: 25px;
-	letter-spacing: 2px;
-	font-weight: bold;
-	transition: all 0.3s linear;
-}
-nav ul li a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-nav ul li:hover a {
-	color: #2C9AB7;
-}
+
 .hero_header {
 	color: #000000;
 	text-align: center;
@@ -111,9 +69,10 @@ nav ul li:hover a {
 		list-style-type: none;
 	    padding-left: 0;
 		justify-content: center;
+	width:100%;
 }
 .official_link li {
-        max-width: 48px;
+        max-width: 32px;
         padding:0 5px;
 	    list-style:none;
 }
@@ -125,17 +84,16 @@ nav ul li:hover a {
 	text-align: center;
 }
 .youtube iframe {
-  width: 100%;
-  max-width: 780px;
+  max-width: 100%;
+  width: 780px;
   height: auto;
   aspect-ratio: 16/9;
 }
-.spotify {
-  padding-left: 10%;
-  padding-right: 10%;
+.wp-block-embed-spotify > .wp-block-embed__wrapper {
+  text-align: center;
 }
 .spotify iframe {
-	text-align: center;
+	max-width: 100%;
 }
 .about {
 	padding-left: 25px;
@@ -385,39 +343,32 @@ nav ul li {
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
-.logo {
+nav {
+	float: right;
 	width: 100%;
-	text-align: center;
-	margin-top: 13px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	color: #043745;
-}
-.container header nav {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	float: none;
-	overflow: auto;
-	display: inline-block;
-	background: #52bad5;
+	text-align: right;
+	margin-right: 5px;
 }
 header nav ul {
-	padding: 0px;
-	float: none;
+	list-style: none;
+	float: right;
 }
 nav ul li {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 10px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+nav ul li:hover a {
+	color: #2C9AB7;
 }
 .text_column {
 	width: 100%;

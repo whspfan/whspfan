@@ -98,7 +98,8 @@ body {
 .members {
 	margin: 0 auto;
 	text-align: center;
-	max-width: 640px;
+	max-width: 780px;
+	width: 100%;
 }
 .members_list {
 	margin: 2rem;
@@ -113,12 +114,16 @@ body {
 	flex-direction: row-reverse;
 }
 .member_item_list,.member_img {
-	width:50%
+
 }
 .member_img {
+	width: 40%;
+	  aspect-ratio: 1/1;
+
 	border-radius:20px 0 0 20px;
 }
 .member_item_list {
+	width: 60%;
 	text-align: center;
 	margin: auto 0;
 }

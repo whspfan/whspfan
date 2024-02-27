@@ -106,8 +106,8 @@ body {
 .member_item {
 	display:flex;
 	margin: 4rem auto;
-	border: 1px  solid #000000;
-	border-radius:20px;
+	border: 2px  solid #000000;
+	border-radius:22px;
 }
 .member_item:nth-child(odd) {
 	flex-direction: row-reverse;
@@ -124,11 +124,11 @@ body {
 }
 .member_item_name {
 	font-size: 1.6rem;
-	margin: auto 3rem;
-	padding: 20px 0;
+	height: 50%
 }
 
 .member_icon{
+	height: 50%;
     display: flex;
 	list-style-type: none;
 	padding-left: 0;
@@ -136,8 +136,8 @@ body {
 	width:100%;
 }
 .member_icon li {
-        max-width: 32px;
-        padding:0 5px;
+    max-width: 32px;
+    padding:0 5px;
 	list-style:none;
 }
 .member_icon li img {

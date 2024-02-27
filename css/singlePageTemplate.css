@@ -49,9 +49,7 @@ nav ul li a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-nav ul li:hover a {
-	color: #2C9AB7;
-}
+
 /* Container */
 .container {
 	width: 90%;

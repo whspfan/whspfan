@@ -155,6 +155,7 @@ header nav ul li a {
 }
 .member_item_name {
 	font-size: 1.2rem;
+	font-weight: bold;
 	height: 30%
 	margin-bottom: 0;
 }

@@ -18,6 +18,13 @@ header {
 	background-color: #000000;
 	border-bottom: 1px solid #000000;
 }
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: undefined;
+	width: 0%;
+	float: left;
+}
 header nav {
 	float: right;
 	width: 100%;

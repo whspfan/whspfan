@@ -155,8 +155,15 @@ header nav ul li a {
 }
 .member_item_name {
 	font-size: 1.2rem;
-	height: 50%
+	height: 30%
 	margin-bottom: 0;
+}
+.member_item_birth {
+	font-size: 0.8rem;
+	color: #000000;
+	height: 20%;
+	margin-top: 10px;
+	letter-spacing: 1px;
 }
 .member_icon{
 	height: 50%;

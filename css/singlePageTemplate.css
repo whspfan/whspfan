@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+	font-family: "メイリオ", meiryo, source-sans-pro;
 	background-color: #ffffff;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -14,16 +14,22 @@ header {
 	position: fixed;
 	z-index: 10000;
 	width: 100%;
-	height: 50px;
+	height: 35px;
 	background-color: #000000;
 	border-bottom: 1px solid #000000;
 }
-
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: undefined;
+	width: 0%;
+	float: left;
+}
 header nav {
 	float: right;
 	width: 100%;
 	text-align: right;
-	margin-right: 2%;
+	margin-right: 5%;
 }
 header nav ul {
 	list-style: none;
@@ -66,7 +72,7 @@ header nav ul li a {
 /* home Section */
 .home {
 	background-color: #FFFFFF;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 20px;
 }
 .icon {text-align: center;}
@@ -125,7 +131,6 @@ header nav ul li a {
 	max-width: 780px;
 	width: 100%;
 	padding-top: 35px;
-	aspect-ratio: 10/4;
 }
 .members_list {
 }
@@ -139,32 +144,25 @@ header nav ul li a {
 	flex-direction: row-reverse;
 }
 .member_img {
-	width: 45%;
+	width: 40%;
 	aspect-ratio: 1/1;
 	border-radius:20px 0 0 20px;
 }
 .member_img2 {
-	width: 45%;
+	width: 40%;
 	aspect-ratio: 1/1;
 	border-radius: 0 20px 20px 0;
 }
 .member_item_list {
-	width: 55%;
+	width: 60%;
 	text-align: center;
 	margin: auto 0;
 }
 .member_item_name {
-	font-size: 1.2rem;
-	height: 30%
-	margin-bottom: 0;
+	font-size: 1.4rem;
+	height: 50%
 }
-.member_item_birth {
-	font-size: 0.8rem;
-	color: #000000;
-	height: 20%;
-	margin-top: 10px;
-	letter-spacing: 1px;
-}
+
 .member_icon{
 	height: 50%;
     	display: flex;

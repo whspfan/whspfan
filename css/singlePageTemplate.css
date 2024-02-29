@@ -14,7 +14,7 @@ header {
 	position: fixed;
 	z-index: 10000;
 	width: 100%;
-	height: 35px;
+	height: 50px;
 	background-color: #000000;
 	border-bottom: 1px solid #000000;
 }
@@ -65,7 +65,7 @@ header nav ul li a {
 /* home Section */
 .home {
 	background-color: #FFFFFF;
-	padding-top: 30px;
+	padding-top: 50px;
 	padding-bottom: 20px;
 }
 .icon {text-align: center;}
@@ -124,6 +124,7 @@ header nav ul li a {
 	max-width: 780px;
 	width: 100%;
 	padding-top: 35px;
+	aspect-ratio: 10/4;
 }
 .members_list {
 }
@@ -137,25 +138,32 @@ header nav ul li a {
 	flex-direction: row-reverse;
 }
 .member_img {
-	width: 40%;
+	width: 45%;
 	aspect-ratio: 1/1;
 	border-radius:20px 0 0 20px;
 }
 .member_img2 {
-	width: 40%;
+	width: 45%;
 	aspect-ratio: 1/1;
 	border-radius: 0 20px 20px 0;
 }
 .member_item_list {
-	width: 60%;
+	width: 55%;
 	text-align: center;
 	margin: auto 0;
 }
 .member_item_name {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	height: 50%
+	margin-bottom: 0;
 }
-
+.member_item_birth {
+	font-size: 0.8rem;
+	color: #FFFFFF;
+	height: 20%;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
 .member_icon{
 	height: 50%;
     	display: flex;

@@ -69,7 +69,10 @@ header nav ul li a {
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
-.icon {text-align: center;}
+.icon {
+	text-align: center;
+      	border-radius:20px 0 0 20px;
+}
 
 .tagline {
 	text-align: center;

@@ -141,7 +141,7 @@ header nav ul li a {
 	flex-direction: row-reverse;
 }
 .member_img {
-	width: 45%;
+	width: 50%;
 	aspect-ratio: 1/1;
 	border-radius:20px 0 0 20px;
 }

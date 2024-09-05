@@ -137,9 +137,7 @@ header nav ul li a {
 	border: 2px  solid #000000;
 	border-radius:22px;
 }
-.member_item:nth-child(odd) {
-	flex-direction: row-reverse;
-}
+
 .member_img {
 	width: 50%;
 	border-radius:20px 0 0 20px;
